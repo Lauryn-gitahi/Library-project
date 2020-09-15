@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>myLibrary</title>
+</head>
+<body>
+    <div>
+        <h1 class="h1">
+            Welcome to G'sLibrary.
+        </h1>
+        <button class="myBtn" ><i class="fas fa-plus"></i> </button>
+        <!-- <textarea  id="textArea"></textarea> -->
+    </div>
+
+    <div class="section">
+        <ul class="section-list">
+
+        </ul>
+           
+
+    </div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <form class="form ">
+            <label for="title">
+                Title of Book:
+                <input type="text" class="book input" placeholder="See no Evil" required>
+            </label>
+
+            <label for="author">
+                Author:
+                <input type="text" class="author input" placeholder="Allison Brennan" required>
+            </label>
+
+            <label for="title">
+                No of pages:
+                <input type="number" class="pages input" placeholder="850" required>
+            </label>
+            <label for="status"> Choose book status:
+                <input type="text" class="input" placeholder="read" required>
+            </label>
+            <div class="buttons">
+            <button class="btn-submit">Add book</button>
+            <!-- <button class="cnl-btn">Cancel</button> -->
+        </div>
+        </form>
+      
+    </div>
+    </div>
+    <!-- <div class="container">
+
+        <form class="form">
+            <label for="title">
+                Title of Book:
+                <input type="text" class="book input" placeholder="See no Evil" required>
+            </label>
+
+            <label for="author">
+                Author:
+                <input type="text" class="author input" placeholder="Allison Brennan" required>
+            </label>
+
+            <label for="title">
+                No of pages:
+                <input type="number" class="pages input" placeholder="850" required>
+            </label>
+            <label for="status">
+                <input type="text" class="input" placeholder="read" required>
+            </label>
+
+          <label for="Book status"> Choose book status
+            <select name="Book status" id="status" class="input">
+                <option value="Read" class="input">Read</option>
+                <option value=" Not Read" class="input">Not Read</option>
+            </select>
+        </label> -->
+
+        <!-- <button class="btn-submit">Submit</button>
+        </form> -->
+
+      
+    <!-- </div> --> 
+    <!-- <script src="main.js"></script> -->
+    <script src="app.js"></script>
+</body>
+</html>
